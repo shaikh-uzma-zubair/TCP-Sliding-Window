@@ -24,7 +24,7 @@ public class SlidingWindow {
 
 	public static void slideWindow(int win, int frames) {
 		
-		int ptr = 0, lastAck = 0;
+		int ptr = 0, lastAck = 0, dropCount = 0;
 		
 		while(ptr <= frames) {
 			
@@ -33,7 +33,20 @@ public class SlidingWindow {
 			for(int i=ptr; i<ptr+win; i++) {
 				
 				//System.out.println("now sending: " + i);
-				sendBuffer.add(i);
+				
+				int p = Drop.calcProb();
+				
+				if(p <= 8) {
+					sendBuffer.add(i);
+				
+				} else {
+					dropCount ++;
+					System.out.println("now drop count: " + dropCount);
+					
+					if(dropCount >= 3) {
+						sendBuffer.add(i);
+					}
+				}
 				
 				if(i == frames) {
 					System.out.println("done");
@@ -54,10 +67,11 @@ public class SlidingWindow {
 			
 			//checkAcks();
 			
-			ptr = ptr + win;
+			//ptr = ptr + win;
+			ptr = lastAck + 1;
+			System.out.println("now ptr is: " + ptr);
 		
 		}
-		
 	}
 
 	public static int transmit(List sendBuffer, int lastAck) {
