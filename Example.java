@@ -33,9 +33,7 @@ public class Example {
                 noOfSent = 0;
 
         @SuppressWarnings("resource")
-
-
-       Scanner scn = new Scanner(System.in); // Creating Scanner object to read user input
+        Scanner scn = new Scanner(System.in); // Creating Scanner object to read user input
 
         // Prompting user to enter the total number of frames
         System.out.println("Enter the total number of frames: ");
