@@ -33,11 +33,15 @@ public class Example {
                 noOfSent = 0;
 
         @SuppressWarnings("resource")
-        Scanner scn = new Scanner(System.in);
 
-        System.out.println("Enter the total no of frame: ");
+
+       Scanner scn = new Scanner(System.in); // Creating Scanner object to read user input
+
+        // Prompting user to enter the total number of frames
+        System.out.println("Enter the total number of frames: ");
         noOfFrame = scn.nextInt();
 
+        // Prompting user to enter the window size
         System.out.println("Enter the window size: ");
         winSize = scn.nextInt();
 
