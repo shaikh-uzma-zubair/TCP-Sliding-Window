@@ -1,6 +1,6 @@
-import static java.lang.Math.random;
-import java.util.Scanner;
-import java.util.Random;
+import static java.lang.Math.random; // Importing random method from Math class
+import java.util.Scanner; // Importing Scanner class to read input from the user
+import java.util.Random; // Importing Random class to generate random numbers
 
 public class Example {
 
