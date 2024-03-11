@@ -37,7 +37,7 @@ This project implements a basic TCP client and server in Java to demonstrate the
 
 ## Note
 
-- The program is designed to handle 10,000,000 packets, with a maximum sequence number limited to 2^16.
+- The program is designed to handle 10,000,000 packets, with a maximum sequence number limited to 2 <sup> 16 </sup>.
 
 ## Disclaimer
 
