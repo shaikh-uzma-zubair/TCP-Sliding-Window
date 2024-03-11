@@ -73,7 +73,8 @@ public class Example {
 
             endByte = startByte;
         }
-        System.out.println("\nThe Sliding Window Protocol concludes here.");
+        // Conclusion message for the Sliding Window Protocol
+        System.out.println("\n The Sliding Window Protocol concludes here.");
     }
 
 }
