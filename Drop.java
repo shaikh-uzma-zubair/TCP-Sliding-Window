@@ -1,6 +1,12 @@
+// Import the static method random from the Math class, allowing it to be used without prefixing it with Math.
 import static java.lang.Math.random;
+
+// Import the Scanner class from the java.util package to read input from various sources (like user input from the console).
 import java.util.Scanner;
+
+// Import the Random class from the java.util package to generate random numbers of various data types.
 import java.util.Random;
+
 
 public class Drop {
 
