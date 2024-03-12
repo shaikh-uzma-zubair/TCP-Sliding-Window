@@ -1,8 +1,8 @@
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.net.Socket;
-import java.util.SplittableRandom;
+import java.io.DataInputStream; // Importing DataInputStream class for reading primitive data types from input stream
+import java.io.DataOutputStream; // Importing DataOutputStream class for writing primitive data types to output stream
+import java.io.IOException; // Importing IOException class for handling input/output exceptions
+import java.net.Socket; // Importing Socket class for creating client sockets to communicate with server sockets
+import java.util.SplittableRandom; // Importing SplittableRandom class for generating random numbers
 
 // Class definition for the Client.
 public class Client {
