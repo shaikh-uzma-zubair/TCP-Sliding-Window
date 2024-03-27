@@ -1,7 +1,9 @@
 # TCP-StreamSync: TCP Sliding Window Protocol Integration
 
 ## Overview
-TCP-StreamSync is a precise implementation of a TCP client-server architecture in Java, emphasizing the TCP Sliding Window protocol for streamlined data transmission across networks. Engineered for the CS 258 curriculum under the guidance of Prof. Navrati Saxena, this project zeroes in on sequence number synchronization, acknowledgment processing, and the strategic management of packet loss. Its purpose is to demystify the operational dynamics of TCP's data throughput efficiency and network dependability. By facilitating a hands-on exploration of TCP flow control and error correction strategies, TCP-StreamSync serves as an indispensable educational instrument for engineering students focused on mastering network protocol complexities.
+TCP-StreamSync is a precise implementation of a TCP client-server architecture in Java, emphasizing the TCP Sliding Window protocol for streamlined data transmission across networks. Engineered for the CS 258 curriculum under the guidance of Prof. Navrati Saxena, this project zeroes in on sequence number synchronization, acknowledgment processing, and the strategic management of packet loss. 
+
+Our intented purpose is to demystify the operational dynamics of TCP's data throughput efficiency and network dependability. By facilitating a hands-on exploration of TCP flow control and error correction strategies, TCP-StreamSync serves as an indispensable educational instrument for engineering students focused on mastering network protocol complexities.
 
 
 ## Team Members
