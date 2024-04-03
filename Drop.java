@@ -38,11 +38,10 @@ public class Drop {
 
 	}
 
-	private static int calcProb() {
+	public static double calcProb() {
 		
 		Random random = new Random();
 		
-		return random.nextInt(10 - 0 + 1) + 0;
+		return random.nextDouble();
 	}
-
 }
